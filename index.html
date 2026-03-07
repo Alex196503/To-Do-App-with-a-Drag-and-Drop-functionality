@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <header class="header">
+        <section class="section-fluid">
+            <h3 class="lead">TODO</h3>
+            <img class="toggle-icon" src="images/icon-sun.svg" alt="Icon with a sun to change the theme to light theme">
+        </section>
+        <form class="container-fluid">
+            <label for="text" class="visually-hidden">Introduce the text</label>
+            <input type="text" name="text" id="text" value="" placeholder="Create a new todo..." class="form-control">
+        </form>
+    </header>
+    <main class="main">
+    <div class="container">
+        <div class="sections-added">
+            <!-- This was the layout for CRUD (the skeleton made)-->
+      <!--  <section class="row">
+            <input type="checkbox" name="todos" id="checkbox">
+            <p class="text-secondary marked">Complete online JavaScript course</p>
+            <img class="icon-close" src="images/icon-cross.svg" alt="Image with a cross icon">
+        </section>
+         <section class="row">
+            <input type="checkbox" name="todos" id="checkbox2">
+            <p class="text-secondary">Jog around the park 3x</p>
+            <img class="icon-close" src="images/icon-cross.svg" alt="Image with a cross icon">
+        </section>
+         <section class="row">
+            <input type="checkbox" name="todos" id="checkbox3">
+            <p class="text-secondary">Read for 1 hour</p>
+            <img class="icon-close" src="images/icon-cross.svg" alt="Image with a cross icon">
+        </section>
+         <section class="row">
+            <input type="checkbox" name="todos" id="checkbox4">
+            <p class="text-secondary">Pick up groceries</p>
+            <img class="icon-close" src="images/icon-cross.svg" alt="Image with a cross icon">
+        </section>
+    -->
+        </div>
+        <section class="footer">
+            <h3 class="heading">0 items left</h3>
+            <ul class="list">
+                <li>
+                    <p class="heading" data-filter="all">All</p>
+                </li>
+                <li>
+                    <p class="heading" data-filter="active">Active</p>
+                </li>
+                <li>
+                    <p class="heading" data-filter="completed">Completed</p>
+                </li>
+            </ul>
+            <a href="#" class="heading">Clear Completed</a>
+        </section>
+        </div>
+        <h3 class="heading last">Drag and drop to reorder list</h3>
+    </main>
+</body>
+</html>
