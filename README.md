@@ -5,7 +5,8 @@ The most challenging part of this project was the Drag & Drop functionality. I i
  - Mapping the DOM elements to the underlying data array (tasks).
  - Handling a sequence of events: dragstart, dragover, dragenter, dragleave, and drop.
  - State Synchronization: Ensuring that when two elements are swapped in the UI, their positions are also updated in the JavaScript array and LocalStorage to maintain the new order after a refresh.
-Made with:
+
+ Made with:
  - Semantic HTML 5,
  - CSS Grid & Flexbox,
  - CSS Variables & Custom Properties,
