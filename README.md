@@ -16,4 +16,4 @@ The most challenging part of this project was the Drag & Drop functionality. I i
  - Drag and Drop HTML Api,
  - Import/Export JS to ensure a readable code and sustainable.
  - Local Storage JS API for saving data on localhost
-Author: Moldovan Alex. The project was deployed via Vercel and can be viewed live and tested using this link: https://interactive-comments-section-using.vercel.app/, there are no tasks added therefore, but can you add it.
+Author: Moldovan Alex. The project was deployed via Vercel and can be viewed live and tested using this link:(https://to-do-app-with-a-drag-and-drop-func.vercel.app/), there are no tasks added therefore, but can you add it.
